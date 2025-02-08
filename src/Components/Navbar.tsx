@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-     <div>
+    <div>
       <header className="text-gray-600 bg-gray-950 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
 
@@ -18,11 +18,10 @@ export default function Navbar() {
             <Image
               src="/logo.jpg"
               alt="logo"
-              width={100}
-              height={100}
-              className="w-14 h-14 bg-black rounded"
+              width={200}
+              height={200}
+              className="w-14 h-14 bg-black p-2 rounded-full"
             />
-
           </a>
           <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
             <Link href="/SignUp">
