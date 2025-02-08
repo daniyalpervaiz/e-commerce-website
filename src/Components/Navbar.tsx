@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <>
+     <div>
       <header className="text-gray-600 bg-gray-950 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
 
-          <nav className="flex lg:w-2/5 flex-wrap items-center text-blue-600 text-base md:ml-auto">
+          <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
             <Link href="/" className="mr-5 hover:text-red-900">HOME</Link>
             <Link href="/products" className="mr-5 hover:text-red-900">PRODUCTS</Link>
             <Link href="/GetConnected" className="mr-5 hover:text-red-900">GET CONNECTED</Link>
@@ -18,15 +18,15 @@ export default function Navbar() {
             <Image
               src="/logo.jpg"
               alt="logo"
-              width={200}
-              height={200}
-              className="w-14 h-14"
+              width={100}
+              height={100}
+              className="w-14 h-14 bg-black rounded"
             />
 
           </a>
           <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
             <Link href="/SignUp">
-              <button className="inline-flex items-center bg-blue-600 border-0 py-1 px-3 focus:outline-none hover:bg-green-400 rounded text-white mt-4 md:mt-0">
+              <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
                 Sign Up
                 <svg
                   fill="none"
@@ -45,7 +45,7 @@ export default function Navbar() {
         </div>
       </header>
 
-    </>
+    </div>
   );
 }
 
