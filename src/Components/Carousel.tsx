@@ -24,7 +24,7 @@ export default function Carousel() {
   };
 
   return (
-    <div className="carousel w-full lg:h-[650px] xl:h-[650px] relative mt-14">
+    <div className="carousel w-full lg:h-[650px] xl:h-[650px] relative">
       <div className="carousel-item relative w-full">
         <Image
           src={slides[currentIndex]}
