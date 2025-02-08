@@ -6,7 +6,7 @@ export default async function Products({ params }: { params: { id: string } }) {
   console.log(res)   // Log the fetched product data
 
   return (
-    <>
+    <div>
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
@@ -182,6 +182,6 @@ export default async function Products({ params }: { params: { id: string } }) {
         </div>
       </section>
 
-    </>
+    </div>
   );
 }

@@ -15,7 +15,7 @@ export default async function Products() {
   console.log(res)
 
   return (
-    <>
+    <div>
       <div>
         <h1 className="text-blue-800 font-serif text-4xl text-center mt-3 font-extrabold underline">OUR PRODUCTS</h1>
 
@@ -116,6 +116,6 @@ export default async function Products() {
           }
         </div>
       </div>
-    </>
+    </div>
   );
 }
